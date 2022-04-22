@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/bjar/Desktop/Development/housing-text/script.py", line 40, in <module>
+    text = get_text()
+  File "/Users/bjar/Desktop/Development/housing-text/script.py", line 34, in get_text
+    return d.find_element(
+  File "/Users/bjar/Desktop/Development/housing-text/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/Users/bjar/Desktop/Development/housing-text/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "/Users/bjar/Desktop/Development/housing-text/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: /html/body/app-root/app-navigation/mat-sidenav-container/mat-sidenav-content/div/mat-card/div/div[1]/app-student/app-my-screen/div/div[3]/div/mat-card/mat-card-content/p
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5
+element.find/</<@chrome://remote/content/marionette/element.js:300:16
+
